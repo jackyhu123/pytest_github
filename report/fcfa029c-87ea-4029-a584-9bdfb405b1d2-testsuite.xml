@@ -1,0 +1,54 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581348247824" stop="1581348247871">
+  <name>Scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1581348247824" status="passed" stop="1581348247840">
+      <name>test_sum.TestSum.test_add[3-2-5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7296-MainThread"/>
+        <label name="host" value="BF-201910241835"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581348247840" status="failed" stop="1581348247871">
+      <name>test_sum.TestSum.test_add[4-3-5]</name>
+      <failure>
+        <message>AssertionError: assert (4 + 3) == 5</message>
+        <stack-trace>self = &lt;Scripts.test_sum.TestSum object at 0x000002AF38529898&gt;, a = 4, b = 3, c = 5
+
+    @pytest.mark.parametrize("a, b, c", get_yaml())
+    def test_add(self, a, b, c):
+        print("\n{}+{}={}".format(a, b, c))
+&gt;       assert a + b == c
+E       assert (4 + 3) == 5
+
+Scripts\test_sum.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7296-MainThread"/>
+        <label name="host" value="BF-201910241835"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581348247871" status="passed" stop="1581348247871">
+      <name>test_sum.TestSum.test_add[2-1-3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7296-MainThread"/>
+        <label name="host" value="BF-201910241835"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

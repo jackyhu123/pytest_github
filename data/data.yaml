@@ -1,0 +1,36 @@
+#name: lili
+## 模拟json {"name":[{"ke1":"value1"},{"ke2":"value2"}]}
+#Name:
+#  - ke1: value1
+#  - ke2: value2
+
+#info: {'name':'lili','sex':'man'}
+#
+#Info:
+#  name: zs
+#  sex: 男
+#
+#data:
+#  - 1
+#  - 2
+#  - 3
+#name:
+#  - k1: v1
+#  - k2: v2
+#data: 2020-11-12
+#data2: 2020-11-12 12:12:12
+#  a,b,c [(1,2,3),(2,3,5),(3,4,5)]
+test001:
+  a: 1
+  b: 2
+  c: 3
+
+test002:
+  a: 2
+  b: 3
+  c: 5
+
+test003:
+  a: 3
+  b: 4
+  c: 5
